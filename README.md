@@ -88,13 +88,13 @@ flowchart LR
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/vision-guided-denim-spray-cobot.git
+git clone [https://github.com/](https://github.com/)imeesam/vision-guided-denim-spray-cobot.git
 cd vision-guided-denim-spray-cobot
 pip install -r requirements.txt
 ```
 
 ### 2. Download Pretrained ONNX Weights
-Download `best.onnx` from the **[v0.1.0 Release](https://github.com/<your-username>/vision-guided-denim-spray-cobot/releases)** and place it in the repository root.
+Download `best.onnx` from the **[v0.1.0 Release](https://github.com/imeesam/vision-guided-denim-spray-cobot/releases)** and place it in the repository root.
 
 ### 3. Run the Simulation Only (No Model Needed)
 1. Open **RoboDK** with a **JAKA Zu 5** robot and **Paint gun** tool (`TCP: [50, 0, 450]` mm).
