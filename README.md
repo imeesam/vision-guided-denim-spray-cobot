@@ -58,9 +58,9 @@ flowchart LR
 
 ## Training & Detection Diagnostics
 
-| Training & Validation Curves | Keypoint & Raster Overlay |
+| Training & Validation Curves | 
 | :---: | :---: |
-| ![Training Curves](docs/results.png) | ![Annotated Prediction](docs/last_annotated.jpg) |
+| ![Training Curves](docs/results.png) |
 
 | Pose Precision–Recall | Pose F1–Confidence | Dataset Distribution |
 | :---: | :---: | :---: |
@@ -88,7 +88,7 @@ flowchart LR
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone [https://github.com/](https://github.com/)imeesam/vision-guided-denim-spray-cobot.git
+git clone https://github.com/imeesam/vision-guided-denim-spray-cobot.git
 cd vision-guided-denim-spray-cobot
 pip install -r requirements.txt
 ```
